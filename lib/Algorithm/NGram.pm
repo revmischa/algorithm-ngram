@@ -15,7 +15,7 @@ use constant {
     END_TOK => ':ENDTOK:',
 };
 
-our $VERSION = '0.8';
+our $VERSION = '0.9';
 
 =head1 NAME
 
