@@ -8,7 +8,7 @@ WriteMakefile(
     PREREQ_PM         => {
         'Class::Accessor::Fast' => 0,
     },
-    META_ADD => { 'repo' => 'git://github.com/revmischa/algorithm-ngram.git' },
+    META_ADD => { resources => { repository => 'git://github.com/revmischa/algorithm-ngram.git' } },
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (
        AUTHOR         => 'Mischa Spiegelmock <mspiegelmock@gmail.com>') : ()),
